@@ -11,11 +11,12 @@ class FrilansServiceTest {
     public void test1() {
         FrilansService service = new FrilansService();
         int actual = service.calculate(10000, 3000, 20000);
-        int expected= 3;
+        int expected = 3;
 
-        Assertions.assertEquals(expected, actual );
+        Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void test2() {
         FrilansService service = new FrilansService();
